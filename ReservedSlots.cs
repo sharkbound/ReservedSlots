@@ -1,15 +1,14 @@
-﻿using Rocket.Core.Logging;
+﻿using Rocket.API;
+using Rocket.API.Serialisation;
+using Rocket.Core;
+using Rocket.Core.Logging;
 using Rocket.Core.Plugins;
+using Rocket.Unturned;
+using Rocket.Unturned.Chat;
 using Rocket.Unturned.Permissions;
+using Rocket.Unturned.Player;
 using SDG.Unturned;
 using Steamworks;
-using Rocket.Core;
-using Rocket.API;
-using Rocket.API.Serialisation;
-using Rocket.Core.RCON;
-using Rocket.Unturned.Chat;
-using Rocket.Unturned;
-using Rocket.Unturned.Player;
 
 namespace ReservedSlots
 {
